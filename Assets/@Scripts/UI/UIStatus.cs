@@ -14,7 +14,7 @@ namespace CatLive.UI
         [SerializeField] private Image _moodImage;
         [SerializeField] private Sprite _normalState;
 
-        [SerializeField] Dictionary<Mood, Sprite> _spritesPallete = new Dictionary<Mood, Sprite>(10);
+        [SerializeField] Dictionary<Mood, Sprite> _spritesPallete = new Dictionary<Mood, Sprite>();
 
         public void OnMoodChanged(Mood newMood)
         {

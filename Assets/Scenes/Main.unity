@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 15903512}
   - component: {fileID: 15903511}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MoodLavel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -257,6 +257,170 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15903509}
   m_CullTransparentMesh: 1
+--- !u!1 &24977420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 24977422}
+  - component: {fileID: 24977421}
+  m_Layer: 0
+  m_Name: Pet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &24977421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24977420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0884456e1de0241bc70453127be830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 98746014}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 04490751ac5717845a19bce85dbe297d, type: 2}
+    - {fileID: 11400000, guid: 5e6a3cad8e9a49041b6402a6819fa0be, type: 2}
+    - {fileID: 11400000, guid: a1891aeb865d1a24f888cba26249cdf7, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Mood
+      Entry: 7
+      Data: 0|CatLive.Moods.MoodSystem, Assembly-CSharp
+    - Name: CurrentMood
+      Entry: 6
+      Data: 
+    - Name: OnMoodChanged
+      Entry: 7
+      Data: 1|CatLive.Moods.OnMoodChangedEvent, Assembly-CSharp
+    - Name: m_PersistentCalls
+      Entry: 7
+      Data: 2|UnityEngine.Events.PersistentCallGroup, UnityEngine.CoreModule
+    - Name: m_Calls
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[UnityEngine.Events.PersistentCall,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|UnityEngine.Events.PersistentCall, UnityEngine.CoreModule
+    - Name: m_Target
+      Entry: 10
+      Data: 0
+    - Name: m_TargetAssemblyTypeName
+      Entry: 1
+      Data: CatLive.UI.UIStatus, Assembly-CSharp
+    - Name: m_MethodName
+      Entry: 1
+      Data: OnMoodChanged
+    - Name: m_Mode
+      Entry: 3
+      Data: 0
+    - Name: m_Arguments
+      Entry: 7
+      Data: 5|UnityEngine.Events.ArgumentCache, UnityEngine.CoreModule
+    - Name: m_ObjectArgument
+      Entry: 10
+      Data: 1
+    - Name: m_ObjectArgumentAssemblyTypeName
+      Entry: 1
+      Data: UnityEngine.Object, UnityEngine
+    - Name: m_IntArgument
+      Entry: 3
+      Data: 0
+    - Name: m_FloatArgument
+      Entry: 4
+      Data: 0
+    - Name: m_StringArgument
+      Entry: 1
+      Data: 
+    - Name: m_BoolArgument
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_CallState
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _availableMoods
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[CatLive.Moods.Mood, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _availableActions:
+  - {fileID: 11400000, guid: 7e76822ac7077354184ad5c86c4b66d9, type: 2}
+  - {fileID: 11400000, guid: 0dafc2343b8f28f4abf1076639aac8a7, type: 2}
+  - {fileID: 11400000, guid: 559c7f24c2a0a7c49a5ce8f4595fc087, type: 2}
+  - {fileID: 11400000, guid: 33c39d8191363bd4f825adf1b19a5245, type: 2}
+  _log: {fileID: 1235510673}
+--- !u!4 &24977422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24977420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &59200399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -312,6 +476,26 @@ PrefabInstance:
       propertyPath: m_SpriteState.m_HighlightedSprite
       value: 
       objectReference: {fileID: -697223426185652446, guid: 3316aabd5dd7e2743ad1214e35350560, type: 3}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1034130354}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Apply
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CatLive.Entities.Player, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: d15ccb1209e15b44fbc0e4b2fab06f86, type: 2}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: CatLive.Actions.Action, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 9139113131591310249, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -422,6 +606,7 @@ GameObject:
   - component: {fileID: 98746011}
   - component: {fileID: 98746013}
   - component: {fileID: 98746012}
+  - component: {fileID: 98746014}
   m_Layer: 5
   m_Name: View
   m_TagString: Untagged
@@ -489,6 +674,92 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98746010}
   m_CullTransparentMesh: 1
+--- !u!114 &98746014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98746010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e894ba089a1d34b946116300a8e38b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 5e6a3cad8e9a49041b6402a6819fa0be, type: 2}
+    - {fileID: 2954046213104225770, guid: 00c9f30d2462d5c4293b553754576abc, type: 3}
+    - {fileID: 11400000, guid: 04490751ac5717845a19bce85dbe297d, type: 2}
+    - {fileID: 3250403246189225269, guid: 00c9f30d2462d5c4293b553754576abc, type: 3}
+    - {fileID: 11400000, guid: a1891aeb865d1a24f888cba26249cdf7, type: 2}
+    - {fileID: -450714017260767322, guid: 00c9f30d2462d5c4293b553754576abc, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _spritesPallete
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[CatLive.Moods.Mood, Assembly-CSharp],[UnityEngine.Sprite,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[CatLive.Moods.Mood,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _moodText: {fileID: 1979487114}
+  _moodImage: {fileID: 1027855277}
+  _normalState: {fileID: 6123299755754754370, guid: 00c9f30d2462d5c4293b553754576abc, type: 3}
 --- !u!1 &709267082
 GameObject:
   m_ObjectHideFlags: 0
@@ -883,6 +1154,61 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027855275}
   m_CullTransparentMesh: 1
+--- !u!1 &1034130353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1034130355}
+  - component: {fileID: 1034130354}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1034130354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034130353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71519007a5e836d47989360bef7a0ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _pet: {fileID: 24977421}
+  _log: {fileID: 1235510673}
+  _availablesAction: []
+--- !u!4 &1034130355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034130353}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1235510671
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,7 +1266,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: ...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -973,7 +1299,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1068,6 +1394,26 @@ PrefabInstance:
       propertyPath: m_SpriteState.m_HighlightedSprite
       value: 
       objectReference: {fileID: -6226665981680759704, guid: 3316aabd5dd7e2743ad1214e35350560, type: 3}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1034130354}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Apply
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CatLive.Entities.Player, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: 5d4286e487738f54d94f57dc44c58cfb, type: 2}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: CatLive.Actions.Action, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 9139113131591310249, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1203,7 +1549,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.25}
-  m_AnchoredPosition: {x: 0, y: 0.5807}
+  m_AnchoredPosition: {x: 0, y: 0.5806885}
   m_SizeDelta: {x: 0, y: 19.564}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1328329488
@@ -1376,6 +1722,26 @@ PrefabInstance:
       propertyPath: m_SpriteState.m_HighlightedSprite
       value: 
       objectReference: {fileID: 6517943354750595676, guid: 3316aabd5dd7e2743ad1214e35350560, type: 3}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1034130354}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Apply
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CatLive.Entities.Player, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: d4bb5ec69fd706b4bbcb84eb4efa2000, type: 2}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: CatLive.Actions.Action, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 9139113131591310249, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1570,7 +1936,7 @@ GameObject:
   - component: {fileID: 1979487115}
   - component: {fileID: 1979487114}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: MoodText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1615,7 +1981,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: ...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1823,6 +2189,26 @@ PrefabInstance:
       propertyPath: m_SpriteState.m_HighlightedSprite
       value: 
       objectReference: {fileID: 4867939462919490772, guid: 3316aabd5dd7e2743ad1214e35350560, type: 3}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1034130354}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Apply
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CatLive.Entities.Player, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: 40517c357b971304e80b0246df7a0daf, type: 2}
+    - target: {fileID: 9139113131591310248, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: CatLive.Actions.Action, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 9139113131591310249, guid: a8fc83f0e578b4e488e6d063f08e8c89, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

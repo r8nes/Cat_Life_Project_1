@@ -18,6 +18,6 @@ namespace CatLive.Entities
             _pet.ApplyAction(action.actionType, this);
         }
 
-        public override void DoAction(string action) => _log.text = $"Игрок: {action}";
+        public override void DoAction(string action) => _log.text = $"PLAYER: {action}";
     }
 }

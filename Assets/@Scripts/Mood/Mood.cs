@@ -11,7 +11,7 @@ namespace CatLive.Moods
     {
         [SerializeField] public string MoodName { get; protected set; }
 
-        [DictionaryDrawerSettings(IsReadOnly = true)]
+        [DictionaryDrawerSettings]
         public Dictionary<ActionType, Conclusion> Conclusions =
             new Dictionary<ActionType, Conclusion>(4);
 

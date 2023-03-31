@@ -11,7 +11,7 @@ namespace CatLive.Entities
 {
     public class Pet : Entity
     {
-        private const string INIT_MOOD = "Хорошее";
+        private const string INIT_MOOD = "Good";
 
 #if UNITY_EDITOR
         [ListItemSelector("SetSelected")]
@@ -20,7 +20,8 @@ namespace CatLive.Entities
         [SerializeField]
         private List<ActionType> _availableActions;
 
-        [SerializeField] public MoodSystem Mood { get; private set; }
+        [SerializeField]
+        public MoodSystem Mood { get; private set; }
 
         [SerializeField, PropertySpace(spaceBefore: 10, spaceAfter: 10)]
         private TextMeshProUGUI _log;
