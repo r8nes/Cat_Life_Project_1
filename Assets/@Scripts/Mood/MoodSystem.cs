@@ -12,7 +12,7 @@ namespace CatLive.Moods
     public class MoodSystem
     {
         [ReadOnly, SerializeField]
-        public Mood CurrentMood { get; private set; }
+        public Mood CurrentMood { get; private set; } 
 
         [PropertySpace]
         public OnMoodChangedEvent OnMoodChanged;
@@ -67,7 +67,7 @@ namespace CatLive.Moods
             {
                 throw new ArgumentException($"{mood}: Is not for this entity");
             }
-
+;
             ChangeMood(mood);
             return;
         }

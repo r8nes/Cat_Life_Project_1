@@ -290,11 +290,11 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
+    - {fileID: 11400000, guid: a1891aeb865d1a24f888cba26249cdf7, type: 2}
     - {fileID: 98746014}
     - {fileID: 0}
     - {fileID: 11400000, guid: 04490751ac5717845a19bce85dbe297d, type: 2}
     - {fileID: 11400000, guid: 5e6a3cad8e9a49041b6402a6819fa0be, type: 2}
-    - {fileID: 11400000, guid: a1891aeb865d1a24f888cba26249cdf7, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -304,8 +304,8 @@ MonoBehaviour:
       Entry: 7
       Data: 0|CatLive.Moods.MoodSystem, Assembly-CSharp
     - Name: CurrentMood
-      Entry: 6
-      Data: 
+      Entry: 10
+      Data: 0
     - Name: OnMoodChanged
       Entry: 7
       Data: 1|CatLive.Moods.OnMoodChangedEvent, Assembly-CSharp
@@ -324,7 +324,7 @@ MonoBehaviour:
       Data: 4|UnityEngine.Events.PersistentCall, UnityEngine.CoreModule
     - Name: m_Target
       Entry: 10
-      Data: 0
+      Data: 1
     - Name: m_TargetAssemblyTypeName
       Entry: 1
       Data: CatLive.UI.UIStatus, Assembly-CSharp
@@ -339,7 +339,7 @@ MonoBehaviour:
       Data: 5|UnityEngine.Events.ArgumentCache, UnityEngine.CoreModule
     - Name: m_ObjectArgument
       Entry: 10
-      Data: 1
+      Data: 2
     - Name: m_ObjectArgumentAssemblyTypeName
       Entry: 1
       Data: UnityEngine.Object, UnityEngine
@@ -385,13 +385,13 @@ MonoBehaviour:
       Data: 3
     - Name: 
       Entry: 10
-      Data: 2
-    - Name: 
-      Entry: 10
       Data: 3
     - Name: 
       Entry: 10
       Data: 4
+    - Name: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 13
       Data: 
@@ -961,10 +961,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1981,7 +1981,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ...
+  m_text: GREAT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}

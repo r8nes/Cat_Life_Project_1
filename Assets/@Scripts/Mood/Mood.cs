@@ -10,6 +10,7 @@ namespace CatLive.Moods
     public class Mood : SerializedScriptableObject
     {
         [SerializeField] public string MoodName { get; protected set; }
+        [SerializeField] public int MoodIndex { get; protected set; }
 
         [DictionaryDrawerSettings]
         public Dictionary<ActionType, Conclusion> Conclusions =
